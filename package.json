@@ -23,6 +23,10 @@
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "CI=false react-scripts build",
